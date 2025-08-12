@@ -1,0 +1,233 @@
+/* TASK: Populate each style listed below to make the page look good */
+/* --------------- Einstellung für alle Elemente ---------------*/
+html * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(/images/bg_page.jpg);
+  background-color: rgb(163, 200, 229);
+
+  /* background-position: left top; */
+  background-repeat: repeat-x;
+  /* background-color: linear-gradient(rgb(75, 135, 218), rgb(72, 69, 253)); */
+}
+/* --------------- page ---------------*/
+#page {
+  width: 50%;
+  margin: 0 auto;
+}
+/* --------------- Header ---------------*/
+#cheader {
+  clear: both;
+  float: left;
+  width: 900px;
+  height: 304px;
+  margin-top: 19px;
+  background: url(images/bg_cheader.jpg) left bottom no-repeat;
+}
+#logo {
+  /* clear: left; */
+  float: left;
+  width: 230px;
+  height: 56px;
+}
+
+#logo img {
+  /* width: 50%; */
+}
+#hm {
+  float: left;
+  width: 620px;
+  height: 56px;
+  font-size: 82.5%;
+}
+#hm ul {
+  margin-top: 25px;
+  list-style-type: none;
+}
+#hm ul li {
+  background-color: red;
+  float: left;
+
+  width: 99px;
+  /* height: 20px; */
+  margin-right: 1px;
+  padding-top: 11px;
+  background: url(images/bg_hm.gif) no-repeat;
+  text-align: center;
+}
+#hm ul li a {
+  font-weight: bold;
+  color: #666;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+#hm ul li a.active {
+  color: #000;
+}
+#slogan {
+  /* background-color: red; */
+  clear: left;
+  float: left;
+  width: 155px;
+  height: 80px;
+  margin: 55px 0 0 50px;
+  text-align: right;
+  color: #fff;
+  line-height: 1.5em;
+}
+#slogan h1 {
+  margin-bottom: 10px;
+  font-size: 112.5%;
+  text-transform: lowercase;
+  color: #5186ac;
+}
+#search {
+  background-color: yellow;
+  float: left;
+  clear: left;
+  margin-top: 38px;
+  margin-left: 32px;
+}
+#search input {
+  width: 140px;
+  border: none;
+}
+/* --------------- content ---------------*/
+#ccontent {
+  background-color: rgb(255, 255, 255);
+  clear: left;
+  float: left;
+  width: 850px;
+  padding: 20px 0 30px 0;
+  /* background: url(images/bg_ccontent.gif) no-repeat left bottom #fff; */
+}
+#leftmenue {
+  clear: left;
+  float: left;
+  width: 165px;
+  margin: 30px 50px 0 27px;
+  text-align: right;
+}
+#leftmenue h2 {
+  font-size: 125%;
+  color: #e6784c;
+  text-transform: lowercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+#leftmenue ul {
+  list-style: none;
+}
+#leftmenue ul li {
+  list-style: none;
+  margin: 12px 0;
+}
+#leftmenue ul li a {
+  color: #666;
+  text-decoration: none;
+}
+#leftmenue ul li a:hover {
+  color: #e6784c;
+  font-weight: bold;
+}
+#leftmenue ul li a:hover.active,
+#leftmenue ul li a.active {
+  color: #e6784c;
+  font-weight: bold;
+}
+#hpv24 {
+  /* background-color: rgb(157, 95, 95); */
+  /* clear: left; */
+  /* float: left; */
+  width: 165px;
+  margin: 0 50px 0 27px;
+  font-size: 75%;
+  color: #666;
+  text-align: right;
+}
+#hpv24 a {
+  color: #7ea227;
+}
+#content {
+  /* background-color: green; */
+  float: left;
+  width: 570px;
+  line-height: 1.7em;
+}
+#content h1 {
+  font-size: 200%;
+  color: #e6784c;
+  text-transform: lowercase;
+  margin-bottom: 1em;
+}
+#content h2 {
+}
+#content p {
+  margin-bottom: 1.3em;
+}
+#content a {
+}
+#content a:hover {
+}
+#content #links {
+  float: left;
+  font-size: 82.5%;
+  width: 290px;
+}
+#content #ressourcen {
+  float: left;
+  font-size: 82.5%;
+  width: 250px;
+}
+#content #links ul,
+#content #ressourcen ul {
+  /* float: left;
+  font-size: 82.5%;
+  width: 290px; */
+}
+#content #links ul li,
+#content #ressourcen ul li {
+}
+#content #links ul li a,
+#content #ressourcen ul li a {
+  padding-left: 20px;
+  background: url(images/pointer01.gif) no-repeat left 4px;
+  color: #7ea227;
+}
+#content #links ul li a:hover,
+#content #ressourcen ul li a:hover {
+  color: #e6784c;
+}
+/* --------------- footer ---------------*/
+#footer {
+  clear: left;
+  float: left;
+  width: 850px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: #517791;
+  font-size: 82.5%;
+}
+#copyright {
+  float: left;
+  margin-left: 20px;
+}
+#fmenue {
+  /* background-color: red; */
+  float: right;
+  margin-right: 20px;
+}
+#fmenue ul {
+  list-style: none;
+  float: left;
+}
+#fmenue ul li {
+  list-style: none;
+  float: left;
+}
+#fmenue ul li a {
+  margin: 0 4px;
+  color: #517791;
+}
